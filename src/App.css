@@ -32,7 +32,40 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.shopping-cart {
+  justify-content: space-between;
+  background-color: #61dafb;
+  padding: 15px 10px;
+}
+
+.item-center {
+  margin: 0 auto;
+  justify-content: center;
+  border: 1px solid saddlebrown;
+}
+
+.text-size {
+  font-size: 30px;
+}
+
+.content-center {
+  margin: 0 auto;
+}
+
+.product-list {
+  padding: 20px;
+  margin: 0 auto;
 }
